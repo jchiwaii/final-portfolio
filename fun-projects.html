@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun Projects | chiwai</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter, Roboto Mono, and DM Serif Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .font-mono {
+        font-family: "Roboto Mono", monospace;
+      }
+      .font-title {
+        font-family: "DM Serif Display", serif;
+      }
+    </style>
+  </head>
+  <body class="bg-black text-gray-300">
+    <div class="flex flex-col min-h-screen">
+      <!-- Main Content Area -->
+      <main class="container mx-auto max-w-3xl px-6 py-16 md:py-24">
+        <!-- Header Section -->
+        <header class="mb-12">
+          <a
+            href="./index.html"
+            class="font-mono text-sm text-gray-500 hover:text-white transition-colors duration-200"
+            >← Back to Home</a
+          >
+          <h1 class="font-title text-5xl md:text-6xl font-bold mt-4">
+            <span
+              class="bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent"
+            >
+              Fun Projects
+            </span>
+          </h1>
+        </header>
+
+        <!-- Projects Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Project 1 -->
+          <div
+            class="project-card bg-gray-900/50 border border-gray-800 rounded-lg p-6 transition-all duration-300 hover:border-gray-600"
+          >
+            <h3 class="text-lg font-semibold text-white mb-2">
+              Sleek Dashboard
+            </h3>
+            <p class="text-gray-400 text-sm mb-4">
+              An out-of-the-box dashboard design. (Placeholder description)
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span
+                class="tech-tag bg-pink-900/50 text-pink-300 rounded-full px-3 py-1 text-xs font-medium"
+                >Figma</span
+              >
+              <span
+                class="tech-tag bg-indigo-900/50 text-indigo-300 rounded-full px-3 py-1 text-xs font-medium"
+                >UI/UX</span
+              >
+            </div>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="text-sm text-gray-500 hover:text-white transition-colors duration-200"
+                >View Design</a
+              >
+              <a
+                href="#"
+                class="text-sm text-gray-500 hover:text-white transition-colors duration-200"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div
+            class="project-card bg-gray-900/50 border border-gray-800 rounded-lg p-6 transition-all duration-300 hover:border-gray-600"
+          >
+            <h3 class="text-lg font-semibold text-white mb-2">
+              Rust Experiment
+            </h3>
+            <p class="text-gray-400 text-sm mb-4">
+              Learning Rust by building a small CLI tool. (Placeholder
+              description)
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span
+                class="tech-tag bg-purple-900/50 text-purple-300 rounded-full px-3 py-1 text-xs font-medium"
+                >Rust</span
+              >
+              <span
+                class="tech-tag bg-gray-600 text-gray-300 rounded-full px-3 py-1 text-xs font-medium"
+                >CLI</span
+              >
+            </div>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="text-sm text-gray-500 hover:text-white transition-colors duration-200"
+                >Source Code</a
+              >
+            </div>
+          </div>
+          <!-- Add more projects as needed -->
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="container mx-auto max-w-3xl px-6 py-8 mt-16">
+        <div
+          class="border-t border-gray-800 pt-8 flex items-center justify-between text-sm text-gray-500"
+        >
+          <a
+            class="flex items-center space-x-2 hover:text-white transition-colors duration-200"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 116 100"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M57.5 0L115 100H0L57.5 0Z"></path>
+            </svg>
+            <span>one-man-army</span>
+          </a>
+          <p class="font-mono">&copy; 2025</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
